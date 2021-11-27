@@ -49,7 +49,7 @@ public class DeviceSessionHandler {
         JsonObject addMessage = createAddMessage(hospital);
         sendToAllConnectedSessions(addMessage);
         System.out.println(dtf.format(now) + ", Hospital "+ hospital.getId() + ", -, Creacion de Hospital");
-        log = dtf.format(now) + ", Hospital "+ hospital.getId() + ", -, Creacion de Hospital\n";
+        log = dtf.format(now) + ", Hospital "+ hospital.getId() + ", -, Creano hospial\n";
     }
       
     //Metodo para crear nueva cama a un hospital
